@@ -6,4 +6,4 @@ In the models directory there are pre-trained model to use inside the Jupyter no
 You have just to load them in the cells with fast load and test label!
 
 #### Conda virtual environment
-To ensure the lean execution of the notebook, i've insert a conda environment to load.
+To ensure the lean execution of the notebook, i've insert a conda environment yml to use.
