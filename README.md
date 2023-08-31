@@ -28,14 +28,12 @@ In this study, we conducted an analysis of a dataset containing various features
 After analyzing the dataset, we utilized machine learning techniques to develop a predictive model for water potability based on the provided features. The model aims to determine the safety of water for human consumption. By training the model on a subset of the dataset and evaluating its performance, we can assess its accuracyand predictive capabilities.
 The analysis involved visualizing the relationships between different features using various graphs and charts. For example, scatter plots were used to examine the correlation between pH value and potability, hardness and potability, and other relevant combinations.
 Furthermore, statistical analyses were conducted to gain insights into the distribution of each feature and their impact on water potability.
+
 To build the machine learning model, we employed various classification algorithms. The dataset was divided into training and testing sets to evaluate the model's performance accurately. The model was trained on the training set, and its predictive ability was assessed using the testing set.
-Evaluation metrics such as accuracy, precision, recall, and F1-score were used to measure the model's performance. Cross-validation techniques such as k-fold cross-validation were applied to ensure the model's generalizability and robustness.
+
+Precision metric was used to measure the model's performance. Cross-validation techniques such as k-fold cross-validation were applied to ensure the model's generalizability and robustness.
 
 By combining the data analysis with the machine learning model, we aimed to provide a comprehensive understanding of the water quality and its potability based on the given dataset. The results obtained from this analysis can be valuable for water management authorities, policymakers, and researchers in making informed decisions regarding water treatment and ensuring the safety of drinking water for the population.
-
-### Pre trained model
-In the models directory there are pre-trained model to use inside the Jupyter notebook. 
-You have just to load them in the cells with fast load and test label!
 
 ### Conda virtual environment
 To ensure the lean execution of the notebook, i've insert a conda environment yml to use.
