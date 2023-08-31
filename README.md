@@ -33,9 +33,14 @@ Evaluation metrics such as accuracy, precision, recall, and F1-score were used t
 
 By combining the data analysis with the machine learning model, we aimed to provide a comprehensive understanding of the water quality and its potability based on the given dataset. The results obtained from this analysis can be valuable for water management authorities, policymakers, and researchers in making informed decisions regarding water treatment and ensuring the safety of drinking water for the population.
 
-#### Pre trained model
+### Pre trained model
 In the models directory there are pre-trained model to use inside the Jupyter notebook. 
 You have just to load them in the cells with fast load and test label!
 
-#### Conda virtual environment
+### Conda virtual environment
 To ensure the lean execution of the notebook, i've insert a conda environment yml to use.
+
+## Conclusions
+Thanks to the exploratory analysis, which allowed for a deeper understanding of the available data, it was possible to gain a clear idea of the features that contribute most to the prediction of water potability even before considering baseline models. The most performing models considered were the ones based on decision trees, and this doesn't come as a surprise given the seemingly disordered distribution of the data, which would not have allowed other classification models to achieve such high results.
+
+In conclusion, by conducting analysis and modeling, through the Random Forest classifier, it was possible to achieve an acceptable precision in both classes. Despite the data imbalance and noise, after appropriate modifications to the dataset, we were also able to achieve the goal of creating a machine learning model capable of predicting water potability with an accuracy of 74% and a precision score of 75% for a given water sample.
